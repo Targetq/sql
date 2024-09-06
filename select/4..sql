@@ -12,6 +12,6 @@ use sql_store;
 
 -- 3.uzd
 select * from customers
-where year (birth_date) >=1990 or (points) >=1000 and state in ('VA', "CO");
+where year (birth_date) >=1990 or ((points) >=1000 and state in ('VA', "CO"));
 	
 
